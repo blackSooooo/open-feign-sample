@@ -1,0 +1,18 @@
+sample:
+  api:
+    url: http://localhost:8080
+    name: sample-api
+
+feign:
+  client:
+    config:
+      default:
+        connect-timeout: 5000
+        read-timeout: 5000
+
+logging:
+  level:
+    blacksooooo.clients: debug # open feign package 로그를 보기 위함.
+
+server:
+  port: 8888

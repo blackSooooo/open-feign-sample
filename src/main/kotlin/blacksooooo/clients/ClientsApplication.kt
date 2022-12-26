@@ -1,11 +1,11 @@
-package blacksooooo.openfeign
+package blacksooooo.clients
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class OpenFeignApplication
+class ClientsApplication
 
 fun main(args: Array<String>) {
-	runApplication<OpenFeignApplication>(*args)
+	runApplication<ClientsApplication>(*args)
 }

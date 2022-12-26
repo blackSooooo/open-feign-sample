@@ -1,1 +1,1 @@
-rootProject.name = "open-feign"
+rootProject.name = "clients"
